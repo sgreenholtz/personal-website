@@ -1,5 +1,5 @@
 function appendDataBlock(title, body) {
-  var section = document.querySelector("#projects>section.flex-section");
+  var section = document.querySelector("#projects section.flex-section"); // currently breaking here
   var dataBlock = document.createElement("div");
   dataBlock.setAttribute("class", "col-3 data-block");
   var pHeader = document.createElement("p");
@@ -11,8 +11,4 @@ function appendDataBlock(title, body) {
   dataBlock.appendChild(pHeader);
   dataBlock.appendChild(pBody);
   section.appendChild(dataBlock);
-}
-
-for (let i=0;i<3;i++) {
-  appendDataBlock("This is the head", "This is the body");
 }
