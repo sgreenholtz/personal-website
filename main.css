@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: url('/enchanted-forest.jpg');
+  background-color: green;
+  background-size: cover;
+  width: 100vw;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#title {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  margin: 0;
+  font-family: "Reenie Beanie", cursive;
+}
+
+#name {
+  margin: 0;
+  margin-bottom: -0.7rem;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+  z-index: 0;
+  text-shadow: -1px -1px black;
+}
+
+.section-title {
+  color: black;
+  font-family: "Karla", sans-serif;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-1 {
+  width: 100vw;
+}
+
+.flex-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.data-block {
+  background: lightgray;
+  color: black;
+  min-height: 1rem;
+  font-family: "Karla", sans-serif;
+  padding: 0 1rem;
+}
+.data-block .header {
+  font-size: 18pt;
+  font-weight: 800;
+  margin-bottom: 0;
+}
